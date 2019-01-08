@@ -35,11 +35,11 @@ public class DemoController {
     @Autowired
     private DemoService routerService;
 
-//    @RequestMapping(value = "/test", method = RequestMethod.GET)
-//    @ResponseBody
-//    public String test() {
-//        return "test";
-//    }
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    @ResponseBody
+    public String test() {
+        return "test";
+    }
 
     /**
      * 此方法用于查询商品信息列表，如果查不到数据，会返回自定义异常 SystemException . <br/>

@@ -57,10 +57,9 @@ public class TestFilter extends ZuulFilter {
 //            HttpServletRequest request = ctx.getRequest();
 //            request.getRequestDispatcher("http://www.baidu.com").forward(request, ctx.getResponse());
 //            ctx.set("FORWARD_TO_KEY", "http://www.baidu.com");
-//            ctx.getResponse().sendRedirect("http://www.baidu.com");
+            ctx.getResponse().sendRedirect("http://www.baidu.com");
 //            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp?resid=I402821810167c93ac93ab3cf0167ea711ebc7a95&user=admin&password=admin");
-
-            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp");
+//            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -68,7 +67,7 @@ public class TestFilter extends ZuulFilter {
     }
 }
 
-/*  *//**
+/**
  * 过滤器的具体逻辑。
  * http://localhost:8080/it/www?accessToken=www
  *
