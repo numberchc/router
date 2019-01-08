@@ -2,6 +2,7 @@ package com.baiwang.cloud.web.controller;
 
 import java.util.List;
 
+import com.baiwang.cloud.common.util.HttpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,18 @@ public class DemoController {
     @ResponseBody
     public String test() {
         return "test";
+    }
+
+    @RequestMapping(value = "/testSmart", method = RequestMethod.GET)
+    @ResponseBody
+    public String testSmart() {
+        String result = null;
+        try {
+            result = HttpUtil.doPost("http://www.baidu.com","");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
     /**
