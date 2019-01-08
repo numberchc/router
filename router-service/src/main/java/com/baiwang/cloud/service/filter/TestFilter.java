@@ -58,8 +58,9 @@ public class TestFilter extends ZuulFilter {
 //            request.getRequestDispatcher("http://www.baidu.com").forward(request, ctx.getResponse());
 //            ctx.set("FORWARD_TO_KEY", "http://www.baidu.com");
 //            ctx.getResponse().sendRedirect("http://www.baidu.com");
-            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp?resid=I402821810167c93ac93ab3cf0167ea711ebc7a95&user=admin&password=admin");
-//            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp?resid=I402821810167c93ac93ab3cf0167ea711ebc7a95");
+//            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp?resid=I402821810167c93ac93ab3cf0167ea711ebc7a95&user=admin&password=admin");
+
+            ctx.getResponse().sendRedirect("http://192.168.4.227:18080/smartbi/vision/openresource.jsp");
         } catch (Exception e) {
             e.printStackTrace();
         }
