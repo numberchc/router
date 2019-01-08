@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="router-common" />
+        <module name="router-dao" />
+        <module name="router-integration" />
+        <module name="router-service" />
+        <module name="router-startup" />
+        <module name="router-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="router" target="1.8" />
+      <module name="router-common" target="1.8" />
+      <module name="router-dao" target="1.8" />
+      <module name="router-integration" target="1.8" />
+      <module name="router-service" target="1.8" />
+      <module name="router-startup" target="1.8" />
+      <module name="router-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

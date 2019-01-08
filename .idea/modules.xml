@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/router.iml" filepath="$PROJECT_DIR$/.idea/router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-common/router-common.iml" filepath="$PROJECT_DIR$/router-common/router-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-dao/router-dao.iml" filepath="$PROJECT_DIR$/router-dao/router-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-integration/router-integration.iml" filepath="$PROJECT_DIR$/router-integration/router-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-service/router-service.iml" filepath="$PROJECT_DIR$/router-service/router-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-startup/router-startup.iml" filepath="$PROJECT_DIR$/router-startup/router-startup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-web/router-web.iml" filepath="$PROJECT_DIR$/router-web/router-web.iml" />
     </modules>
   </component>
 </project>

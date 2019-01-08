@@ -24,6 +24,16 @@
 			<artifactId>router-integration</artifactId>
 			<version>1.0.0.0</version>
 		</dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-core</artifactId>
+            <version>1.4.0.RELEASE</version>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zuul</artifactId>
+			<version>1.4.4.RELEASE</version>
+		</dependency>
 	</dependencies>
 	<build>
 	</build>
